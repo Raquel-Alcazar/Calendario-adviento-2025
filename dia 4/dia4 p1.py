@@ -24,7 +24,7 @@ for i in range(len(mosaico)):
                 print("Tengo a la derecha")
             if j - 1 >= 0 and mosaico[i][j - 1] == "@": #Izquieda
                 contador = contador + 1
-                print("Tengo a la izquieda")
+                print("Tengo a la izquierda")
             if i - 1 >= 0 and mosaico[i - 1][j] == "@": #Arriba
                 contador = contador + 1
                 print("Tengo arriba")
@@ -36,7 +36,7 @@ for i in range(len(mosaico)):
                 print("Tengo arriba-derecha")
             if i - 1 >= 0 and j - 1 >= 0 and mosaico[i - 1][j - 1] == "@": #Arriba-Izquieda  
                 contador = contador + 1
-                print("Tengo arriba-izquieda")
+                print("Tengo arriba-izquierda")
             if i + 1 < len(mosaico) and j + 1 < len(mosaico[i]) and mosaico[i + 1][j + 1] == "@": #Abajo-Derecha  
                 contador = contador + 1
                 print("Tengo abajo-derecha")
